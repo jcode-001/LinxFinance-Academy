@@ -1,17 +1,29 @@
 .HeroSection{
-    border: 1px solid #000;
-    padding: 5.7rem 7rem;
+    padding: 5rem 6rem;
     width: 100%;
 }
 
+
+.image-container{
+    width: 400px;
+    /* min-width: 500px; */
+    height: 400px;
+    overflow: hidden;
+}
+
+.hero-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 .flex{
-    /* border: 1px solid #000; */
     display: flex;
     justify-content: space-between;
 }
 
 .writeup-box{
-    /* width: clamp(1rem, 40%, 55% ); */
     width: 55%;
 }
 
@@ -23,7 +35,7 @@
 }
 
 .writeup-p{
-    margin-top: 1.2rem;
+    /* margin-top: 0.65rem; */
     font-size: 16px;
     color: #979797;
     width: 55%;
@@ -35,6 +47,10 @@
 }
 
 @media (max-width: 1033px){
+    .HeroSection{
+        padding: 5.7rem 7rem;
+        width: 100%;
+    }
     .writeup-box{
         width: 55%;
     } 
@@ -42,6 +58,31 @@
 
 @media (max-width: 768px){
     .writeup-box{
-        width: 70%;
+        width: 100%;
     } 
+
+}
+
+@media (max-width: 600px){
+    .Hero-img-box{
+        display: none;
+    }
+
+    .writeup{
+        font-size: 2.75rem;
+        line-height: 3.3rem;
+    }
+
+    .writeup-p{
+        /* margin-top: 1.2rem; */
+        width: 90%;
+    }
+
+    .HeroSection{
+        padding: 2.6rem 1rem;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+    }
 }

@@ -7,7 +7,7 @@ const NavbarComponent = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="" alt="Logo" />
+        <img src="/logo.jpg" alt="Logo" style={{width: '100px', height: '100px'}} />
       </div>
       <ul>
         <li>
@@ -17,7 +17,10 @@ const NavbarComponent = () => {
           <Link to="/plan">Mentorship Courses</Link>
         </li>
         <li>
-          <Link to="/faq">faq</Link>
+          <Link to="/faq">About Us</Link>
+        </li>
+        <li>
+          <Link to="/faq">FAQ</Link>
         </li>
       </ul>
       <div className="df">

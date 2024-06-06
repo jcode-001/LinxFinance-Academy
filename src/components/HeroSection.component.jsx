@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.style.css";
+import btc from "../assets/btc.jpg"
 import CtaButtonsComponent from "./Cta-buttons.component";
 
 const HeroSectionComponent = () => {
@@ -13,7 +14,9 @@ const HeroSectionComponent = () => {
           </h1>
         </div>
         <div className="Hero-img-box">
-          <img src="#" alt="Crypto Trading" />
+         <div className="image-container">
+         <img src={btc} alt="Crypto Trading" className="hero-image" />
+         </div>
         </div>
       </div>
 
