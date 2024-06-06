@@ -1,6 +1,7 @@
 .navbar{
+    border-bottom: 1px solid #979797;
     display: flex;
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
     justify-content: space-between;
 }
 
@@ -19,9 +20,8 @@
     gap: 1rem;
 }
 
-.navbar .cta-btn button{
-    padding: 7px 1rem;
-    border: none; 
-    cursor: pointer;
-    border-radius: 3px;
+@media (max-width: 768px){
+    .navbar ul{
+        display: none;
+    }
 }

@@ -1,0 +1,18 @@
+.cta-btn button{
+    padding: 0.56rem 1rem;
+    border: none; 
+    cursor: pointer;
+    border-radius: 3px;
+    /* display: block; */
+}
+
+.df{
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 600px){
+    .cta-nav-btn{
+        display: none;
+    }
+}
