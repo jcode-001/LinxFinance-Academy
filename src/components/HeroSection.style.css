@@ -1,0 +1,28 @@
+.HeroSection{
+    border: 1px solid #000;
+    padding: 5.7rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.writeup-box{
+    width: 55%;
+}
+
+.writeup{
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+    letter-spacing: 1.28px;
+    font-weight: 500;
+}
+
+.writeup-box p{
+    margin-top: 1.2rem;
+    font-size: 16px;
+    color: #979797;
+}
+
+.Hero-img-box{
+    align-self: center;
+}

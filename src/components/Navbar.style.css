@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    padding: 1rem 1.5rem;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display:flex;
+    list-style-type: none;
+    gap: 1.6rem;
+}
+
+.navbar ul a{
+    text-decoration: none;
+}
+
+.navbar .cta-btn{
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar .cta-btn button{
+    padding: 7px 1rem;
+    border: none; 
+    cursor: pointer;
+    border-radius: 3px;
+}
